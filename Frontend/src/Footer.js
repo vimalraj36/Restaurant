@@ -27,6 +27,8 @@ const Footer = () => {
                 </div>
             </div>
             <h3>Copyright &copy; 2024 VRfamily | powered by VRfamily</h3>
+            <a href="/privacy-policy.html">Privacy Policy</a>
+
         </div>
     );
 }
