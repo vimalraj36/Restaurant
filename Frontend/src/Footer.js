@@ -30,6 +30,8 @@ const Footer = () => {
             <a href="/terms-conditions">terms & conditions</a>
 
             <a href="/privacy-policy">Privacy Policy</a>
+            <a href="/refund-policy">Refund Policy</a>
+
 
         </div>
     );
