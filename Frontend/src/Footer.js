@@ -14,11 +14,11 @@ const Footer = () => {
                 <div className='info'>
                     <div className='sync'>
                         <img src={phone}></img>
-                        <p>+91 -63853-51439</p>
+                        <p>+91 7339268956</p>
                     </div>
                     <div className='sync'>
                         <img src={mail}></img>
-                        <p>VRfam@gmail.com</p>
+                        <p>vimalraj362005@gmail.com</p>
                     </div>
                     <div className='sync'>
                         <img src={location}></img>
@@ -27,7 +27,9 @@ const Footer = () => {
                 </div>
             </div>
             <h3>Copyright &copy; 2024 VRfamily | powered by VRfamily</h3>
-            <a href="/privacy-policy.html">Privacy Policy</a>
+            <a href="/terms-conditions">terms & conditions</a>
+
+            <a href="/privacy-policy">Privacy Policy</a>
 
         </div>
     );

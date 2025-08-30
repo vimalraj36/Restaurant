@@ -1,0 +1,58 @@
+import React from "react";
+
+const TermsConditions = () => {
+  return (
+    <div>
+      <h1>Terms and Conditions</h1>
+
+      <h2>Introduction</h2>
+      <p>
+        By accessing and using this website ("Restaurant"), you agree to comply with
+        and be bound by the following terms and conditions. If you do not agree to
+        these terms, please do not use our website.
+      </p>
+
+      <h2>Use of the Website</h2>
+      <ul>
+        <li>This website is provided for general information purposes only.</li>
+        <li>
+          You agree not to use the website for any unlawful purpose or in a way that
+          may harm, disable, or impair the site.
+        </li>
+      </ul>
+
+      <h2>Intellectual Property</h2>
+      <p>
+        All content, images, and media on this site are owned by the site operator,
+        unless stated otherwise, and may not be reproduced without permission.
+      </p>
+
+      <h2>Links to Other Websites</h2>
+      <p>
+        Our website may contain links to third-party websites. We are not responsible
+        for the content or practices of these external sites.
+      </p>
+
+      <h2>Limitation of Liability</h2>
+      <p>
+        The site owner will not be liable for any damages or losses arising from your
+        use of the website or reliance on its content.
+      </p>
+
+      <h2>Changes to These Terms</h2>
+      <p>
+        We reserve the right to update or modify these terms at any time. Changes
+        will be posted on this page, and continued use of the website constitutes
+        acceptance of those changes.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        If you have questions about these terms and conditions, please contact us at{" "}
+        <a href="mailto:vimalraj362005@gmail.com">vimalraj362005@gmail.com</a>.
+      </p>
+    </div>
+  );
+};
+
+export default TermsConditions;

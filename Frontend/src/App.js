@@ -7,6 +7,8 @@ import Booking from "./Booking";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import ConfirmBooking from "./ConfirmBooking";
+import TermsConditions from "./TermsConditions";
+import PrivacyPolicy from "./PrivacyPolicy";
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
             <Footer />
           </>
         } />
+         <Route path="/terms-conditions" element={<TermsConditions />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/confirm-booking" element={<ConfirmBooking />} />
       </Routes>
     </Router>
